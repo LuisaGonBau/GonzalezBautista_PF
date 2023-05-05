@@ -1,0 +1,27 @@
+/* Mixin para estilos de lista */
+@mixin lista {
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+  }
+/* Mixin para estilos de enlace */
+@mixin enlace {
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 1px solid --paginas;
+    transition: all 0.2s; }
+
+@mixin hover {
+    font-size:22px;background-color:var(--paginas); padding:4px;border-radius:10px; color:#D4AF37}
+
+@mixin align-center {
+    text-align: center;
+      }
+      
+@mixin font-family {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+@mixin text-color($color) {
+    color: $color;
+      }
